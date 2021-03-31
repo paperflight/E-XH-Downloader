@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1214295C1D5E420900B93795 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 1214295A1D5E420900B93795 /* icon16.png */; };
+		1214295D1D5E420900B93795 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 1214295B1D5E420900B93795 /* icon128.png */; };
+		121DB3301D5DB6A400D0F795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DB32F1D5DB6A400D0F795 /* AppDelegate.m */; };
+		121DB3331D5DB6A400D0F795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DB3321D5DB6A400D0F795 /* main.m */; };
+		121DB3361D5DB6A400D0F795 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 121DB3351D5DB6A400D0F795 /* ViewController.mm */; };
+		121DB3381D5DB6A400D0F795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121DB3371D5DB6A400D0F795 /* Assets.xcassets */; };
+		121DB33B1D5DB6A500D0F795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121DB3391D5DB6A500D0F795 /* Main.storyboard */; };
+		121DB3461D5DB6A500D0F795 /* EHentaiDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DB3451D5DB6A500D0F795 /* EHentaiDownloaderTests.m */; };
+		121DB3511D5DB6A500D0F795 /* EHentaiDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DB3501D5DB6A500D0F795 /* EHentaiDownloaderUITests.m */; };
+		121DB3611D5DB6FB00D0F795 /* cookie.txt in Resources */ = {isa = PBXBuildFile; fileRef = 121DB35E1D5DB6FB00D0F795 /* cookie.txt */; };
+		121DB3621D5DB6FB00D0F795 /* libcurl.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 121DB35F1D5DB6FB00D0F795 /* libcurl.4.dylib */; };
+		121DB3631D5DB6FB00D0F795 /* EHD.h in Sources */ = {isa = PBXBuildFile; fileRef = 121DB3601D5DB6FB00D0F795 /* EHD.h */; };
+		121DB3661D5DC6E700D0F795 /* ViewControllerLimit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 121DB3651D5DC6E700D0F795 /* ViewControllerLimit.mm */; };
+		12CB30781D5E3E2D00AC4138 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB30771D5E3E2D00AC4138 /* icon1.png */; };
+		12CB307E1D5E3F2100AC4138 /* icon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 12CB30791D5E3F2100AC4138 /* icon.psd */; };
+		12CB307F1D5E3F2100AC4138 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB307A1D5E3F2100AC4138 /* icon2.png */; };
+		12CB30801D5E3F2100AC4138 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB307B1D5E3F2100AC4138 /* icon3.png */; };
+		12CB30811D5E3F2100AC4138 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB307C1D5E3F2100AC4138 /* icon4.png */; };
+		12CB30821D5E3F2100AC4138 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 12CB307D1D5E3F2100AC4138 /* icon5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		121DB3421D5DB6A500D0F795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 121DB3231D5DB6A400D0F795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121DB32A1D5DB6A400D0F795;
+			remoteInfo = EHentaiDownloader;
+		};
+		121DB34D1D5DB6A500D0F795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 121DB3231D5DB6A400D0F795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121DB32A1D5DB6A400D0F795;
+			remoteInfo = EHentaiDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1214295A1D5E420900B93795 /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon16.png; sourceTree = "<group>"; };
+		1214295B1D5E420900B93795 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon128.png; sourceTree = "<group>"; };
+		121DB32B1D5DB6A400D0F795 /* EHentaiDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHentaiDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		121DB32E1D5DB6A400D0F795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		121DB32F1D5DB6A400D0F795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		121DB3321D5DB6A400D0F795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		121DB3341D5DB6A400D0F795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		121DB3351D5DB6A400D0F795 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		121DB3371D5DB6A400D0F795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		121DB33A1D5DB6A500D0F795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		121DB33C1D5DB6A500D0F795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121DB3411D5DB6A500D0F795 /* EHentaiDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EHentaiDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		121DB3451D5DB6A500D0F795 /* EHentaiDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHentaiDownloaderTests.m; sourceTree = "<group>"; };
+		121DB3471D5DB6A500D0F795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121DB34C1D5DB6A500D0F795 /* EHentaiDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EHentaiDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		121DB3501D5DB6A500D0F795 /* EHentaiDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHentaiDownloaderUITests.m; sourceTree = "<group>"; };
+		121DB3521D5DB6A500D0F795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121DB35E1D5DB6FB00D0F795 /* cookie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cookie.txt; sourceTree = "<group>"; };
+		121DB35F1D5DB6FB00D0F795 /* libcurl.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcurl.4.dylib; sourceTree = "<group>"; };
+		121DB3601D5DB6FB00D0F795 /* EHD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHD.h; sourceTree = "<group>"; };
+		121DB3641D5DC6E700D0F795 /* ViewControllerLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLimit.h; sourceTree = "<group>"; };
+		121DB3651D5DC6E700D0F795 /* ViewControllerLimit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewControllerLimit.mm; sourceTree = "<group>"; };
+		121DB3671D5DCF7200D0F795 /* EHDLimit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHDLimit.h; sourceTree = "<group>"; };
+		12CB30771D5E3E2D00AC4138 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		12CB30791D5E3F2100AC4138 /* icon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = icon.psd; sourceTree = "<group>"; };
+		12CB307A1D5E3F2100AC4138 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		12CB307B1D5E3F2100AC4138 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		12CB307C1D5E3F2100AC4138 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		12CB307D1D5E3F2100AC4138 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121DB3281D5DB6A400D0F795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121DB3621D5DB6FB00D0F795 /* libcurl.4.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121DB33E1D5DB6A500D0F795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121DB3491D5DB6A500D0F795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1214295E1D5E421000B93795 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				12CB30771D5E3E2D00AC4138 /* icon1.png */,
+				12CB30791D5E3F2100AC4138 /* icon.psd */,
+				12CB307A1D5E3F2100AC4138 /* icon2.png */,
+				12CB307B1D5E3F2100AC4138 /* icon3.png */,
+				12CB307C1D5E3F2100AC4138 /* icon4.png */,
+				1214295A1D5E420900B93795 /* icon16.png */,
+				1214295B1D5E420900B93795 /* icon128.png */,
+				12CB307D1D5E3F2100AC4138 /* icon5.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		121DB3221D5DB6A400D0F795 = {
+			isa = PBXGroup;
+			children = (
+				121DB32D1D5DB6A400D0F795 /* EHentaiDownloader */,
+				121DB3441D5DB6A500D0F795 /* EHentaiDownloaderTests */,
+				121DB34F1D5DB6A500D0F795 /* EHentaiDownloaderUITests */,
+				121DB32C1D5DB6A400D0F795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		121DB32C1D5DB6A400D0F795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				121DB32B1D5DB6A400D0F795 /* EHentaiDownloader.app */,
+				121DB3411D5DB6A500D0F795 /* EHentaiDownloaderTests.xctest */,
+				121DB34C1D5DB6A500D0F795 /* EHentaiDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		121DB32D1D5DB6A400D0F795 /* EHentaiDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				121DB32E1D5DB6A400D0F795 /* AppDelegate.h */,
+				121DB32F1D5DB6A400D0F795 /* AppDelegate.m */,
+				121DB3341D5DB6A400D0F795 /* ViewController.h */,
+				121DB3351D5DB6A400D0F795 /* ViewController.mm */,
+				121DB3641D5DC6E700D0F795 /* ViewControllerLimit.h */,
+				121DB3651D5DC6E700D0F795 /* ViewControllerLimit.mm */,
+				121DB3371D5DB6A400D0F795 /* Assets.xcassets */,
+				121DB3391D5DB6A500D0F795 /* Main.storyboard */,
+				121DB33C1D5DB6A500D0F795 /* Info.plist */,
+				121DB35E1D5DB6FB00D0F795 /* cookie.txt */,
+				121DB35F1D5DB6FB00D0F795 /* libcurl.4.dylib */,
+				121DB3601D5DB6FB00D0F795 /* EHD.h */,
+				121DB3671D5DCF7200D0F795 /* EHDLimit.h */,
+				121DB3311D5DB6A400D0F795 /* Supporting Files */,
+			);
+			path = EHentaiDownloader;
+			sourceTree = "<group>";
+		};
+		121DB3311D5DB6A400D0F795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				121DB3321D5DB6A400D0F795 /* main.m */,
+				1214295E1D5E421000B93795 /* icon */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		121DB3441D5DB6A500D0F795 /* EHentaiDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				121DB3451D5DB6A500D0F795 /* EHentaiDownloaderTests.m */,
+				121DB3471D5DB6A500D0F795 /* Info.plist */,
+			);
+			path = EHentaiDownloaderTests;
+			sourceTree = "<group>";
+		};
+		121DB34F1D5DB6A500D0F795 /* EHentaiDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				121DB3501D5DB6A500D0F795 /* EHentaiDownloaderUITests.m */,
+				121DB3521D5DB6A500D0F795 /* Info.plist */,
+			);
+			path = EHentaiDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		121DB32A1D5DB6A400D0F795 /* EHentaiDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121DB3551D5DB6A500D0F795 /* Build configuration list for PBXNativeTarget "EHentaiDownloader" */;
+			buildPhases = (
+				121DB3271D5DB6A400D0F795 /* Sources */,
+				121DB3281D5DB6A400D0F795 /* Frameworks */,
+				121DB3291D5DB6A400D0F795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHentaiDownloader;
+			productName = EHentaiDownloader;
+			productReference = 121DB32B1D5DB6A400D0F795 /* EHentaiDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		121DB3401D5DB6A500D0F795 /* EHentaiDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121DB3581D5DB6A500D0F795 /* Build configuration list for PBXNativeTarget "EHentaiDownloaderTests" */;
+			buildPhases = (
+				121DB33D1D5DB6A500D0F795 /* Sources */,
+				121DB33E1D5DB6A500D0F795 /* Frameworks */,
+				121DB33F1D5DB6A500D0F795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121DB3431D5DB6A500D0F795 /* PBXTargetDependency */,
+			);
+			name = EHentaiDownloaderTests;
+			productName = EHentaiDownloaderTests;
+			productReference = 121DB3411D5DB6A500D0F795 /* EHentaiDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		121DB34B1D5DB6A500D0F795 /* EHentaiDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121DB35B1D5DB6A500D0F795 /* Build configuration list for PBXNativeTarget "EHentaiDownloaderUITests" */;
+			buildPhases = (
+				121DB3481D5DB6A500D0F795 /* Sources */,
+				121DB3491D5DB6A500D0F795 /* Frameworks */,
+				121DB34A1D5DB6A500D0F795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121DB34E1D5DB6A500D0F795 /* PBXTargetDependency */,
+			);
+			name = EHentaiDownloaderUITests;
+			productName = EHentaiDownloaderUITests;
+			productReference = 121DB34C1D5DB6A500D0F795 /* EHentaiDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		121DB3231D5DB6A400D0F795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = HUFH;
+				TargetAttributes = {
+					121DB32A1D5DB6A400D0F795 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9SGHBAXG25;
+					};
+					121DB3401D5DB6A500D0F795 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 121DB32A1D5DB6A400D0F795;
+					};
+					121DB34B1D5DB6A500D0F795 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 121DB32A1D5DB6A400D0F795;
+					};
+				};
+			};
+			buildConfigurationList = 121DB3261D5DB6A400D0F795 /* Build configuration list for PBXProject "EHentaiDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 121DB3221D5DB6A400D0F795;
+			productRefGroup = 121DB32C1D5DB6A400D0F795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				121DB32A1D5DB6A400D0F795 /* EHentaiDownloader */,
+				121DB3401D5DB6A500D0F795 /* EHentaiDownloaderTests */,
+				121DB34B1D5DB6A500D0F795 /* EHentaiDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		121DB3291D5DB6A400D0F795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CB307E1D5E3F2100AC4138 /* icon.psd in Resources */,
+				12CB30811D5E3F2100AC4138 /* icon4.png in Resources */,
+				1214295D1D5E420900B93795 /* icon128.png in Resources */,
+				121DB3611D5DB6FB00D0F795 /* cookie.txt in Resources */,
+				12CB30801D5E3F2100AC4138 /* icon3.png in Resources */,
+				121DB3381D5DB6A400D0F795 /* Assets.xcassets in Resources */,
+				12CB30781D5E3E2D00AC4138 /* icon1.png in Resources */,
+				121DB33B1D5DB6A500D0F795 /* Main.storyboard in Resources */,
+				12CB307F1D5E3F2100AC4138 /* icon2.png in Resources */,
+				12CB30821D5E3F2100AC4138 /* icon5.png in Resources */,
+				1214295C1D5E420900B93795 /* icon16.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121DB33F1D5DB6A500D0F795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121DB34A1D5DB6A500D0F795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121DB3271D5DB6A400D0F795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121DB3361D5DB6A400D0F795 /* ViewController.mm in Sources */,
+				121DB3331D5DB6A400D0F795 /* main.m in Sources */,
+				121DB3661D5DC6E700D0F795 /* ViewControllerLimit.mm in Sources */,
+				121DB3631D5DB6FB00D0F795 /* EHD.h in Sources */,
+				121DB3301D5DB6A400D0F795 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121DB33D1D5DB6A500D0F795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121DB3461D5DB6A500D0F795 /* EHentaiDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121DB3481D5DB6A500D0F795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121DB3511D5DB6A500D0F795 /* EHentaiDownloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121DB3431D5DB6A500D0F795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121DB32A1D5DB6A400D0F795 /* EHentaiDownloader */;
+			targetProxy = 121DB3421D5DB6A500D0F795 /* PBXContainerItemProxy */;
+		};
+		121DB34E1D5DB6A500D0F795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121DB32A1D5DB6A400D0F795 /* EHentaiDownloader */;
+			targetProxy = 121DB34D1D5DB6A500D0F795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		121DB3391D5DB6A500D0F795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121DB33A1D5DB6A500D0F795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		121DB3531D5DB6A500D0F795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		121DB3541D5DB6A500D0F795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		121DB3561D5DB6A500D0F795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9SGHBAXG25;
+				INFOPLIST_FILE = EHentaiDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EHentaiDownloader",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AHA.EHentaiDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		121DB3571D5DB6A500D0F795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9SGHBAXG25;
+				INFOPLIST_FILE = EHentaiDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EHentaiDownloader",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AHA.EHentaiDownloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		121DB3591D5DB6A500D0F795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHentaiDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AHA.EHentaiDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EHentaiDownloader.app/Contents/MacOS/EHentaiDownloader";
+			};
+			name = Debug;
+		};
+		121DB35A1D5DB6A500D0F795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHentaiDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AHA.EHentaiDownloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EHentaiDownloader.app/Contents/MacOS/EHentaiDownloader";
+			};
+			name = Release;
+		};
+		121DB35C1D5DB6A500D0F795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHentaiDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AHA.EHentaiDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EHentaiDownloader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		121DB35D1D5DB6A500D0F795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EHentaiDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AHA.EHentaiDownloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EHentaiDownloader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121DB3261D5DB6A400D0F795 /* Build configuration list for PBXProject "EHentaiDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121DB3531D5DB6A500D0F795 /* Debug */,
+				121DB3541D5DB6A500D0F795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121DB3551D5DB6A500D0F795 /* Build configuration list for PBXNativeTarget "EHentaiDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121DB3561D5DB6A500D0F795 /* Debug */,
+				121DB3571D5DB6A500D0F795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121DB3581D5DB6A500D0F795 /* Build configuration list for PBXNativeTarget "EHentaiDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121DB3591D5DB6A500D0F795 /* Debug */,
+				121DB35A1D5DB6A500D0F795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121DB35B1D5DB6A500D0F795 /* Build configuration list for PBXNativeTarget "EHentaiDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121DB35C1D5DB6A500D0F795 /* Debug */,
+				121DB35D1D5DB6A500D0F795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 121DB3231D5DB6A400D0F795 /* Project object */;
+}
